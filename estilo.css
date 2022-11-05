@@ -1,0 +1,435 @@
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*SECCION INICIO*/
+#Inicio{
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("imagenfondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: white;
+    
+}
+#Inicio .contenido header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    color: white;
+}
+body #Inicio{
+    box-shadow: none;
+    border-radius: 0%;
+}
+body #Inicio .presentacion{
+    width: fit-content;
+    margin: 0 auto;
+}
+.navlist{
+    background: rgba(0, 5, 29);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav-item a{
+    text-decoration: none;
+    color: blue;
+    transition: all 200ms ease-in;
+    font-weight:650;
+    font-size: 20px;
+}
+#CV{
+    margin-right: 350px;
+    color: rgb(0, 217, 255);
+    font-size: 40px;
+}
+.nav-item a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(0, 26, 255);
+    transition: all 0.5s ease;
+    font-size: 23px;
+}
+#Inicio .contenido .presentación{
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.Bienvenida{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#Inicio .contenido .presentación h2{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+#Inicio .contenido .presentación h2 span{
+    color: rgb(0, 217, 255);
+}
+#Inicio .contenido .presentación .descripción{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+#Inicio .contenido .presentación a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+#Inicio .contenido .presentación a:hover{
+    background-color:rgb(0, 247, 255,.6)
+}
+/*SECCION SOBRE MI*/
+#Sobremi{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px 30px;
+    display: flex;
+    color: white;
+}
+#Sobremi .contenedor-foto{
+    max-width: 360px;
+    margin-right: 80px;
+}
+#Sobremi .contenedor-foto img{
+    padding: 8px;
+    width: 100%;
+    border-radius: 50px;
+    background-color:rgb(24, 137, 202);
+}
+#Sobremi .Sobremi{
+    margin: 70px 40px;
+}
+#Sobremi .Sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: aquamarine;
+}
+#Sobremi .Sobremi h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+#Sobremi .Sobremi h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+#Sobremi .Sobremi p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+#Sobremi .Sobremi a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 247, 255);
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    transition: .5s;
+}
+#Sobremi .Sobremi a:hover{
+    background-color: blue;
+    color: white;
+}
+#Sobremi .Sobremi a{/**/
+    display: flex;
+    justify-content:center
+}
+
+
+/*SECCION SKILLS*/
+#skills{
+    padding: 10px 15px;
+    margin-top: 100px;
+    text-align: center;
+}
+#skills .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(1, 7, 85) 153;
+}
+#skills .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+
+
+#skills .fila .servicio h4{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+#skills .fila .servicio hr{
+    width: 30%;
+    margin: auto;
+    color: black;
+    margin-bottom: 25px;
+}
+#skills .fila .servicio ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/*SECCIOIN PORTFOLIO*/
+.portfolio{
+    padding: 50px 20px;
+    margin-top: 100px;
+}
+.portfolio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.portfolio h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0;
+}
+.portfolio .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.portfolio .galeria .proyecto img{
+    width: 100%;
+    display: block;
+}
+.portfolio .galeria .proyecto .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(13, 9, 68, 0.8), rgba(13, 9, 68, 0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+.portfolio .galeria .proyecto .overlay h3{
+    margin-bottom: 20px;
+    transition: .7s;
+}
+.portfolio .galeria .proyecto .overlay:hover{
+    opacity: 1;
+}
+.portfolio .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 0px;
+}
+
+body{
+    background-image: url('DEGRADADO.jpg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    color: white;
+}
+
+.nav{
+    width: fit-content;
+    margin: 0 auto;
+}
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+section{
+width: 85%;
+margin-left: 6%;
+background: rgba(81, 113, 153, 0.4);
+border-radius: 15px;
+box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.5)
+}
+
+
+/*SECCION CONTACTO*/
+#Contacto{
+    padding: 50px 15px;
+    margin-top: 100px;
+}
+#Contacto .titulo-seccion{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#Contacto .contenedor-form{
+    max-width: 1100px;
+    margin: auto;
+}
+#Contacto .contenedor-form .fila{
+    margin-bottom: 15px;
+}
+#Contacto .contenedor-form .mitad{
+    display: flex;
+    justify-content:space-between;
+}
+#Contacto .contenedor-form input,
+#Contacto .contenedor-form textarea{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid rgb(2, 10, 80);
+}
+#Contacto .contenedor-form .mitad input{
+    width: 43%;
+}
+#Contacto .contenedor-form .input-full{
+    width: 97%;
+}
+#Contacto .btn-enviar{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+#Contacto .btn-enviar:hover{
+    background-color: blue;
+    color: white;
+}
+
+footer{
+    background: rgb(0, 5, 29);
+    text-align: center;
+    margin-top: 4em;
+}
+footer h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+footer p{
+    padding: 2em;
+    display: inline-block;
+}
+footer p a{
+    color: white;
+}
+
+
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+h2{
+    text-transform: uppercase;
+}
+.vinculo:link{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav ul li {
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.nav ul li .fa-linkedin{
+    color: white;
+}
+.nav ul li:hover .fa-linkedin{
+    color:dodgerblue;
+    text-shadow: 0 0 15px blue;
+    transition: all 0.5s ease;
+
+    font-size: 35px;
+    }
+
+.nav ul li .fa-whatsapp{
+    color: white;
+} 
+.nav ul li:hover .fa-whatsapp{
+    color:dodgerblue;
+    text-shadow: 0 0 15px blue;
+    transition: all 0.5s ease;
+    font-size: 35px;
+}
+
+.nav ul li .fa-behance{
+    color: white;
+}
+.nav ul li:hover .fa-behance{
+    color:dodgerblue;
+    text-shadow: 0 0 15px blue;
+
+    transition: all 0.5s ease;
+    font-size: 35px;
+}
+
+.nav ul li .fa-envelope{
+    color: white;
+}
+.nav ul li:hover .fa-envelope{
+    color:dodgerblue;
+    text-shadow: 0 0 15px blue;
+    transition: all 0.5s ease;
+    font-size: 35px;
+}
+
+
